@@ -56,3 +56,6 @@ pnpm dev
 命令行输入：ssh-keygen -R github.com
 
  git push 提交代码的时候按提示操作
+
+### 后台启动简单静态服务
+nohup python -m SimpleHTTPServer 3000 > server.log 2>&1 &
