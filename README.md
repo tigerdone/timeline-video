@@ -4,7 +4,7 @@
 
 体验地址：http://120.78.205.46:3000/
 
-![时间轴预览](./src/assets/demo.mp4)
+## 预览
 
 ## 核心功能
 
@@ -46,3 +46,9 @@ yarn dev
 # 或
 pnpm dev
 ```
+
+## 问题
+### WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!   
+命令行输入：ssh-keygen -R github.com
+
+ git push 提交代码的时候按提示操作
