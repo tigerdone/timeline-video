@@ -3,6 +3,7 @@ import {  Asset } from '@/types/index';
 // AssetItem.tsx
 import { useDrag } from 'react-dnd'
 import { useRef } from 'react';
+import dog from '@/assets/images/dog.webp'
 
 const AssetItem = ({ asset }: { asset: Asset }) => {
   const assetsList = useRef<HTMLDivElement>(null);
@@ -21,13 +22,16 @@ const AssetItem = ({ asset }: { asset: Asset }) => {
       ref={assetsList}
       className={`
         p-4 mb-2 rounded-lg cursor-move transition-all
-        bg-[url('@/assets/images/dog.webp')]
+
         bg-[length:auto_100%] bg-center w-full
         bg-repeat-x
         ${
           isDragging ? 'opacity-50 bg-gray-700' : 'bg-gray-800 hover:bg-gray-700'
         }`
       }
+      style={{
+        backgroundImage: `url(${dog.src})`
+      }}
     >
       <div className="flex items-center">
         <div 
