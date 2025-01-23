@@ -7,7 +7,11 @@
 ## 预览
 
 
-https://github.com/user-attachments/assets/0942a71c-5be5-4095-bac0-21ebad3c4f93
+
+https://github.com/user-attachments/assets/ef3615d4-9267-432f-be42-32d1709cd9e1
+
+
+
 
 
 ## 核心功能
