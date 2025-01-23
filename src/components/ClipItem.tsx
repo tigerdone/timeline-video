@@ -117,7 +117,7 @@ const ClipItem = ({
         ref={dragElementRef}
         className={`
           absolute flex items-center p-2 rounded-lg group
-          shadow-md hover:shadow-lg transition-all
+          shadow-md hover:shadow-lg
           opacity-100
           bg-[length:auto_100%] bg-center w-full
           bg-repeat-x
